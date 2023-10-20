@@ -42,14 +42,12 @@ table {
 	border-spacing: 0;
 }
 
-.header {
-    
-}
 
 .navbar {
     background-color: #fa8039;
     display: flex;
     height: 5vw;
+    box-shadow: 5px 5px 18px #4e4e4ea1;
     align-items: center;
 }
 
@@ -58,13 +56,33 @@ table {
     color: #fff;
     padding: 0 20px;
     font-size: 2vw;
+    cursor: pointer;
     line-height: 5vw;
 }
 
-.item :hover {
-    background-color: #f69a65;
+.navbar :hover{
+    background-color: #fff;
+    color: #fa8039;
+}
+
+.background {
+    margin-top: 5vw;
+    min-height: 488px;
+    display: flex;
+    align-items: center;
 }
 
 .background img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.TextBG {
+    color: #fa8039;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 8vw;
     width: 100%;
 }
